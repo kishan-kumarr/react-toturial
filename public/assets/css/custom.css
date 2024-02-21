@@ -1,0 +1,40 @@
+* {
+    margin:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(227, 232, 243);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image {
+    width: 100px;
+}
+
+.profile {
+    background-color: rgb(230, 224, 224);
+}
+
+.profile-text {
+    font-size: small;
+    padding: 2px;
+}
+
+.aboutus {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(196, 202, 224);
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+}
+
+.profile, .aboutus, .aboutus, .footer{ width: 80%; padding: 20px;}
